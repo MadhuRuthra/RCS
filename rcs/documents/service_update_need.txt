@@ -1,0 +1,9 @@
+Create Template Page - Whatsapp Call Functions - create_template Save
+Manage Users Page
+Dashboard Page
+
+Later : 
+==========
+Scan QR Code Page - Store Call Functions - mobile_qrcode Save
+QR - Summary Report
+QR - Details Report

@@ -1,0 +1,6 @@
+message_id,recpient,batch_id,campaign_id,processed_date,done_date,description,dlr_state,rcs_communication_type,rcs_template_id
+4450506644,917652916979,0,8,22-08-2024 18:37:59,22-08-2024 18:38:02,Message delivered successfully,DELIVERY_SUCCESS,RICH_CARD,266494
+4450506645,917087200738,0,8,22-08-2024 18:37:59,22-08-2024 18:38:04,Message delivered successfully,DELIVERY_SUCCESS,RICH_CARD,266494
+4450506646,919086814127,0,8,22-08-2024 18:38:00,22-08-2024 18:38:03,Message delivered successfully,DELIVERY_SUCCESS,RICH_CARD,266494
+4450506647,918899327833,0,8,22-08-2024 18:38:00,22-08-2024 18:38:08,Message delivered successfully,DELIVERY_SUCCESS,RICH_CARD,266494
+4450506648,917837858672,0,8,22-08-2024 18:37:59,22-08-2024 18:37:59,"Error Code [404], Error Text [Number is RCS disabled or Bot is not launched with the number's provider]",DELIVERY_FAILED,RICH_CARD,266494

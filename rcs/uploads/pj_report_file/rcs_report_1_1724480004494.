@@ -1,0 +1,2 @@
+message_id,recpient,batch_id,campaign_id,processed_date,done_date,description,dlr_state,rcs_communication_type,rcs_template_id
+4446116453,917904670129,0,2,21-08-2024 11:27:59,21-08-2024 11:27:59,400,SUBMISSION_REJECTED,RICH_CARD,266494

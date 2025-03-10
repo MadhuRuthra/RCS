@@ -1,0 +1,2 @@
+message_id,recpient,batch_id,campaign_id,processed_date,done_date,description,dlr_state,rcs_communication_type,rcs_template_id
+4448003005,919894606748,0,2,22-08-2024 10:34:49,22-08-2024 10:34:49,Message accepted successfully.,DELIVERY_SUCCESS,RICH_CARD,266494

@@ -1,0 +1,4 @@
+message_id,recpient,batch_id,campaign_id,processed_date,done_date,description,dlr_state,rcs_communication_type,rcs_template_id
+4474002798,917652916979,0,13,27-08-2024 14:01:55,27-08-2024 14:02:00,Message delivered successfully,DELIVERY_SUCCESS,CAROUSEL,267114
+4474002799,917087200738,0,13,27-08-2024 14:01:55,27-08-2024 14:02:01,Message delivered successfully,DELIVERY_SUCCESS,CAROUSEL,267114
+4474002800,917837858672,0,13,27-08-2024 14:01:55,,Message accepted successfully.,DELIVERY_AWAITED,CAROUSEL,267114

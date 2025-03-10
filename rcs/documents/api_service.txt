@@ -1,0 +1,324 @@
+https://yjtec.in/watsp_api/compose_whatsapp_message -- DONE
+{
+    "api_key":"AA1DE999B6B65D2",
+    "sender_numbers":[916380885546],
+    "receiver_numbers":[916380885546,916380885546],
+    "components":[],
+    "template_name":"slice_msg",
+    "template_lang":"en_GB"
+}
+
+https://yjtec.in/watsp_api/template/get_template -- DONE
+{
+    "user_id":"1",
+    "api_key":"AA1DE999B6B65D2"
+}
+
+https://yjtec.in/watsp_api/template/get_template_numbers -- DONE
+{
+    "user_id":"1",
+    "api_key":"AA1DE999B6B65D2",
+    "template_name":"slice_msg",
+    "template_lang":"en_GB"
+}
+
+https://yjtec.in/watsp_api/report/campaign_report // GET
+{
+    "api_key":"AA1DE999B6B65D2",
+    "campaign_id":85
+}
+
+https://yjtec.in/watsp_api/report/campaign_summary_report
+{
+    "api_key":"AA1DE999B6B65D2",
+    "campaign_id":85
+}
+
+https://yjtec.in/watsp_api/report/messenger_response_list // GET -- DONE
+{
+    "api_key":"AA1DE999B6B65D2",
+    "user_id":1
+}
+
+https://yjtec.in/watsp_api/list/messenger_view_response -- POST -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1",
+    "message_from" : "919025181189",
+    "message_to" : "916380885546"
+}
+
+https://yjtec.in/watsp_api/list/messenger_response_update -- POST -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1",
+    "message_id" : "1,3"
+}
+
+https://yjtec.in/watsp_api/message/reply_message -- DONE
+{
+    "api_key":"AA1DE999B6B65D2",
+    "receiver_mobile":"916380885546",
+    "sender_mobile":"918610110464",
+    "reply_msg":"Hii"
+}
+
+https://yjtec.in/watsp_api/list/country_list -- GET -- DONE
+{
+    "api_key":"AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+https://yjtec.in/watsp_api/list/master_language -- POST -- DONE
+{
+    "api_key":"AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/list/service_category_list -- GET -- DONE
+{
+    "api_key":"AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/list/approve_whatsapp_no_api -- GET -- DONE
+{
+    "api_key":"AA1DE999B6B65D2"
+}
+
+https://yjtec.in/watsp_api/list/login_time -- POST -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1",
+    "login_time" : "2023-03-30 15:17:38"
+}
+
+https://yjtec.in/watsp_api/list/available_credits -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/list/senderid_allowed -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/list/template_list -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/template/delete_template // DELETE -- DONE
+{
+    "api_key":"AA1DE999B6B65D2",
+    "template_id":"763897085065590"
+}
+
+https://yjtec.in/watsp_api/list/template_rcs_list -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/list/message_credit_list -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+https://yjtec.in/watsp_api/list/add_message_credit -- POST -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1",
+    "parent_user" : "1~~primary_admin",
+    "receiver_user" : "6~~4703B3213F10970~~test_admin1",
+    "message_count" : "10"
+}
+
+https://yjtec.in/watsp_api/list/mc_parent_user -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/list/mc_receiver_user -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/list/manage_users -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/list/find_blocked_senderid -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/list/approve_whatsappno -- POST -- DONE
+{
+	"api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1",
+    "whatspp_config_status" : "Y",
+    "whatspp_config_id" : "38"
+}
+
+https://yjtec.in/watsp_api/list/save_phbabt -- POST -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1",
+    "whatspp_config_id" : "31",
+    "phone_number_id" : "A1"
+}
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1",
+    "whatspp_config_id" : "31",
+    "whatsapp_business_acc_id" : "B2"
+}
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1",
+    "whatspp_config_id" : "31",
+    "bearer_token" : "C3"
+}
+
+https://yjtec.in/watsp_api/list/faq -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/list/user_type -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/list/manage_senderid_list -- DONE
+{
+  "api_key":"AA1DE999B6B65D2"
+} 
+
+https://yjtec.in/watsp_api/sender_id/add_sender_id -- DONE
+{
+    "api_key":"AA1DE999B6B65D2",
+    "user_id" : "1",
+    "country_code" : "91",
+    "mobile_no" : "8838964597",
+    "profile_name" : "Vindhya",
+    "profile_image" : "5_1679118636160.jpeg",
+    "country_code_id" : "101",
+    "service_category" : "1",
+    "qr_code_allowed" : "A"
+}
+
+https://yjtec.in/watsp_api/list/username_generate -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1",
+    "user_type" : "2"
+}
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1",
+    "user_type" : "3",
+    "super_admin" : "4~~ad2"
+}
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1",
+    "user_type" : "4",
+    "super_admin" : "4~~ad2",
+    "dept_admin" : "5~~dhd2"
+}
+
+https://yjtec.in/watsp_api/list/display_dept_admin -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1",
+    "super_admin" : "2~~ad1"
+}
+
+Summary Report : 
+https://yjtec.in/watsp_api/report/otp_summary_report -- GET
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "filter_date" : "2023/02/20 - 2023/03/20"
+}
+https://yjtec.in/watsp_api/report/report_filter_user -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+https://yjtec.in/watsp_api/report/report_filter_department -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+Details Report : 
+https://yjtec.in/watsp_api/report/otp_details_report -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "sender_filter" : "918610110464"
+}
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "receiver_filter" : "919445603329"
+}
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "status_filter" : "FAILED"
+}
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "delivery_filter" : "NOT DELIVERED"
+}
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "read_filter" : "READ"
+}
+
+https://yjtec.in/watsp_api/devicetoken/update_deviceToken -- POST -- Right now it is used only for MOBILE
+{
+    "api_key" : "174F8AEFDEC3EAF",
+    "user_id" : "3",
+    "device_token" : "TPOTozO0LW4LQY:APA91bHym0q4UjTgg6h5dmmAUILEQaoWerVl6m_pqPx6MA0rS2SGsIUELW9PMm3d0NGZjj9VoICIiPsRIpL_dlrIoXheBbQflO4NeNSqmo5wGn4aeb2C58awisOwfERMTg9PYhyEqLa2"
+}
+
+https://yjtec.in/watsp_api/sender_id/delete_sender_id -- DELETE -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1",
+    "whatspp_config_id" : "48"
+}
+
+https://yjtec.in/watsp_api/list/manage_whatsappno_list -- GET -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/list/approve_whatsapp_no -- POST -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/list/whatsapp_list -- POST -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}
+
+https://yjtec.in/watsp_api/list/whatsapp_senderid -- POST -- DONE
+{
+    "api_key" : "AA1DE999B6B65D2",
+    "user_id" : "1"
+}

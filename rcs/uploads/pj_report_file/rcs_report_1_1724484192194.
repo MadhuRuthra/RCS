@@ -1,0 +1,3 @@
+message_id,recpient,batch_id,campaign_id,processed_date,done_date,description,dlr_state,rcs_communication_type,rcs_template_id
+4456373084,919989000000,0,9,24-08-2024 12:38:55,24-08-2024 12:38:55,No next route found,PSB_GENERIC_ERROR,RICH_CARD,266494
+4456373085,917838000000,0,9,24-08-2024 12:38:55,24-08-2024 12:38:55,No next route found,PSB_GENERIC_ERROR,RICH_CARD,266494

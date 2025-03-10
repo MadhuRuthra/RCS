@@ -1,0 +1,7 @@
+message_id,recpient,batch_id,campaign_id,processed_date,done_date,description,dlr_state,rcs_communication_type,rcs_template_id
+4448045350,919894606748,0,6,22-08-2024 11:58:01,22-08-2024 11:58:05,Message delivered successfully,DELIVERY_SUCCESS,RICH_CARD,266494
+4448045351,919572304239,0,6,22-08-2024 11:58:01,22-08-2024 11:58:01,"Error Code [404], Error Text [404 NOT_FOUND - Requested entity was not found.]",DELIVERY_FAILED,RICH_CARD,266494
+4448045352,917837858672,0,6,22-08-2024 11:58:01,22-08-2024 11:58:02,"Error Code [404], Error Text [404 NOT_FOUND - Requested entity was not found.]",DELIVERY_FAILED,RICH_CARD,266494
+4448045353,917652916979,0,6,22-08-2024 11:58:01,22-08-2024 11:58:03,Message delivered successfully,DELIVERY_SUCCESS,RICH_CARD,266494
+4448045354,919818535810,0,6,22-08-2024 11:58:01,22-08-2024 11:58:02,"Error Code [404], Error Text [404 NOT_FOUND - Requested entity was not found.]",DELIVERY_FAILED,RICH_CARD,266494
+4448045355,919086814127,0,6,22-08-2024 11:58:01,22-08-2024 11:59:38,Message delivered successfully,DELIVERY_SUCCESS,RICH_CARD,266494
